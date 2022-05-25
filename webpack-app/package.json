@@ -1,0 +1,19 @@
+{
+  "name": "webpack-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview": "npx webpack && npx http-server . -c-1"
+  },
+  "keywords": [],
+  "author": "makotot",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "5.72.1",
+    "webpack-cli": "4.9.2"
+  },
+  "dependencies": {
+    "dog": "file:../dog"
+  }
+}

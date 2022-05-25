@@ -1,0 +1,22 @@
+{
+  "name": "dog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "keywords": [],
+  "author": "makotot",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "7.17.10",
+    "@babel/core": "7.18.2",
+    "@babel/plugin-transform-runtime": "7.18.2",
+    "@babel/preset-env": "7.18.2",
+    "core-js": "3.22.7"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs3": "7.18.3"
+  }
+}
